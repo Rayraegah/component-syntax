@@ -7,7 +7,6 @@ file_extensions:
   - tmpl
   - tpl
   - vue
-first_line_match: (?i)<(!DOCTYPE\s*)?html
 scope: text.html.basic
 contexts:
   main:
@@ -83,6 +82,10 @@ contexts:
           with_prototype:
             - match: (?i)(?=</style)
               pop: true
+            - match: (:)(root|scope)
+              scope: entity.other.root-class.css
+              captures:
+                1: punctuation.definition.entity.css
     - match: '(<)((?i:script))\b(?![^>]*/>)(?![^>]*(?i:type.?=.?text/((?!javascript).*)))'
       captures:
         1: punctuation.definition.tag.begin.html
