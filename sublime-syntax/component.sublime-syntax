@@ -404,6 +404,7 @@ contexts:
         2: entity.other.attribute-name.event.html
         3: punctuation.separator.key-value.html
       push:
+        - include: entities-meta
         - match: '"'
           scope: string.quoted.double punctuation.definition.string.begin.html
           set:

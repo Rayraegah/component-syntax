@@ -167,11 +167,13 @@
 			<key>name</key>
 			<string>Custom property css</string>
 			<key>scope</key>
-			<string>meta.property-list.css meta.property-name.css support.type.custom-property.css support.type.custom-property.name.css, meta.group.css support.type.custom-property.css support.type.custom-property.name.css</string>
+			<string>support.type.custom-property.css support.type.custom-property.name.css</string>
 			<key>settings</key>
 			<dict>
+				<key>fontStyle</key>
+				<string>bold</string>
 				<key>foreground</key>
-				<string>#00bfa5</string>
+				<string>#B2CCD6</string>
 			</dict>
 		</dict>
 		<dict>
