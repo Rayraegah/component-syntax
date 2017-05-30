@@ -1,12 +1,12 @@
 %YAML 1.2
 ---
-name: HTML (Component)
+name: Single File Component (SFC)
 file_extensions:
+  - sfc
   - inc
   - tag
   - tmpl
   - tpl
-  - vue
 scope: text.html.basic
 contexts:
   main:
